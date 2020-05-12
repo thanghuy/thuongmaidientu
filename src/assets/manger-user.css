@@ -1,0 +1,95 @@
+#wrapper{
+  margin-top: 20px;
+  margin-bottom: 20px;
+  background: #f1f1f1;
+}
+#sidebar-wrapper {
+  min-height: 100vh;
+  margin-left: -15rem;
+  -webkit-transition: margin .25s ease-out;
+  -moz-transition: margin .25s ease-out;
+  -o-transition: margin .25s ease-out;
+  transition: margin .25s ease-out;
+}
+.list-group-item{
+  border: none !important;
+  background-color: #f1f1f1;
+  color: rgb(85, 83, 83);
+}
+.list-group-item span{
+  font-size: 16px;
+}
+.active-user-m{
+  background-color: #ffffff;
+}
+.fa-user{
+  margin-left: 1px;
+  color: rgb(13, 127, 235);
+}
+.fa-university{
+  color: darkcyan;
+}
+.fa-map-marker-alt{
+  margin-right: 5px;
+  color: rgb(241, 43, 43);
+}
+.fa-sync{
+  color: rgb(121, 124, 131);
+}
+.fa-clipboard-list{
+  color: rgb(13, 127, 235);
+  margin-right: 5px;
+}
+.fa-bell{
+  color: darkorange;
+}
+.list-group-item .fas{
+  font-size: 20px;
+  margin-left: 5px;
+  padding-right: 10px;
+}
+#sidebar-wrapper .sidebar-heading {
+  padding: 0.875rem 1.25rem;
+  font-size: 1.2rem;
+}
+
+#sidebar-wrapper .list-group {
+  width: 15rem;
+}
+.avatar {
+  vertical-align: middle;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+}
+
+.nameuser{
+  font-size: 14px;
+  margin-top: 15px;
+  width: 70%;
+  height: auto;
+  float: right;
+}
+#page-content-wrapper {
+  min-width: 100vw;
+  background: #ffffff;
+}
+
+#wrapper.toggled #sidebar-wrapper {
+  margin-left: 0;
+}
+
+@media (min-width: 768px) {
+  #sidebar-wrapper {
+    margin-left: 0;
+  }
+
+  #page-content-wrapper {
+    min-width: 0;
+    width: 100%;
+  }
+
+  #wrapper.toggled #sidebar-wrapper {
+    margin-left: -15rem;
+  }
+}
